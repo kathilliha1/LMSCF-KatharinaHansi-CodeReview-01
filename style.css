@@ -1,7 +1,7 @@
 body {
 	font-family: "arial", "verdana", "sans-serif";
 	width: 100%;
-	margin:10px 200px;
+	/* margin:10px 200px; */
 }
 
 #wrapper {
@@ -17,12 +17,12 @@ header
 	float: right;
 	position: absolute;
 	top: 50px;
-	right: 80px;
+	right: 240px;
 }
 
 h3 {
 	padding: 50px;
-	text-align: center;
+	text-align: left;
 	
 }
 
@@ -67,7 +67,7 @@ start nav bar
 
 
 /* -----------------------
-start main
+start main home.html
 ----------------------- */
 main {
 	padding-bottom: 10px;
@@ -98,14 +98,59 @@ h1 {
 	margin: 0 375px;
 }	
 
-/* 
-span {
-	display: block;
+/* -----------------------
+start main blog
+----------------------- */
+
+#blogarticle1 {
+	margin:10px 200px;	
 }
- */
+
+main a {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	margin: 200px;
+	margin-bottom: 10px;
+
+}
+
+main h3 {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+main img {
+	float: left;
+	padding-right: 20px ;
+}
+
 
 /* -----------------------
-start footer
+start main aboutme.html
+----------------------- */
+#aboutme {
+	margin: 0 200px;
+}
+
+/* -----------------------
+start contact me form
+----------------------- */
+
+#contactform {
+	margin: 0 200px;
+}
+
+main h3 {
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+
+
+/* -----------------------
+start footer 
 ----------------------- */
 footer {
 	text-align: center;
